@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Freshness Edit | Everyday Picks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2d3748; --accent: #4fd1c5; --bg-light: #f7fafc; --white: #ffffff; }
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-light); color: var(--primary); line-height: 1.6; }
+        header { position: sticky; top: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e2e8f0; padding: 15px 5%; z-index: 1000; display: flex; justify-content: space-between; align-items: center; }
+        .back-btn { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 14px; padding: 8px 16px; border: 1px solid #cbd5e0; border-radius: 6px; transition: 0.3s; }
+        .back-btn:hover { background: var(--primary); color: white; }
+        .hero { padding: 40px 5%; max-width: 1200px; margin: 0 auto; text-align: center; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 42px; margin-bottom: 10px; color: #1a202c; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 40px; }
+        .bridge-card { background: var(--white); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .bridge-card:hover { transform: translateY(-5px); box-shadow: 0 12px 20px rgba(0,0,0,0.1); }
+        .img-box { width: 100%; aspect-ratio: 1/1; overflow: hidden; background: #fff; }
+        .img-box img { width: 100%; height: 100%; object-fit: cover; }
+        .content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; text-align: left; }
+        .badge { background: var(--accent); color: #00443d; font-size: 11px; font-weight: 800; padding: 4px 12px; border-radius: 4px; align-self: start; margin-bottom: 10px; text-transform: uppercase; }
+        .title { font-size: 17px; font-weight: 700; margin-bottom: 10px; min-height: 45px; color: #1a202c; line-height: 1.4; }
+        .price-row { font-size: 22px; font-weight: 800; color: #2b6cb0; margin-bottom: 15px; }
+        .cta-main { display: block; background: var(--primary); color: var(--white); text-decoration: none; padding: 14px; border-radius: 8px; font-weight: 700; text-align: center; margin-top: auto; transition: 0.2s; }
+        .cta-main:hover { background: #1a202c; }
+        .product-num { font-size: 10px; color: #cbd5e0; margin-top: 10px; font-weight: 600; text-transform: uppercase; }
+        @media (max-width: 768px) { .hero h1 { font-size: 32px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="https://every-day-picks.github.io/All-picks/" class="back-btn">← ALL PICKS</a>
+        <div style="font-weight: 900; font-size: 22px; font-family: 'Playfair Display'; letter-spacing: -0.5px;">EVERYDAY<span style="color: var(--accent);">PICKS</span></div>
+    </header>
+
+    <section class="hero">
+        <h1>Underarm Care & Freshness</h1>
+        <p>Advanced 48-72 hour protection, aluminum-free formulas, and skin-smoothing sticks.</p>
+
+        <div class="grid">
+            <div class="bridge-card">
+                <div class="img-box"><img src="S87695cb2e39749fc9ebe5ea398f34850g.webp" alt="Lady Deodorant Stick"></div>
+                <div class="content">
+                    <span class="badge">48H Protection</span>
+                    <h3 class="title">Invisible Solid Completely Clean Deodorant</h3>
+                    <div class="price-row">Check Price</div>
+                    <a href="https://s.click.aliexpress.com/e/_c4LIVkqR" class="cta-main" target="_blank">SHOP INVISIBLE SOLID</a>
+                    <div class="product-num">#EP-SK-301</div>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="S49d27a6f753f4a4796bad932795d6353v.webp" alt="Alum Crystal Deodorant"></div>
+                <div class="content">
+                    <span class="badge">Natural Mineral</span>
+                    <h3 class="title">Portable Alum Crystal Body Odor Remover</h3>
+                    <div class="price-row">Check Price</div>
+                    <a href="https://s.click.aliexpress.com/e/_c41vUZUf" class="cta-main" target="_blank">SHOP ALUM STICK</a>
+                    <div class="product-num">#EP-SK-302</div>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="S3a0c61333da043a1988ca35ebea410fcC.webp" alt="Native Deodorant"></div>
+                <div class="content">
+                    <span class="badge">Aluminum-Free</span>
+                    <h3 class="title">NATIVE Original Citrus Herbal Musk Stick</h3>
+                    <div class="price-row">Check Price</div>
+                    <a href="https://s.click.aliexpress.com/e/_c4KySzA3" class="cta-main" target="_blank">SHOP NATIVE</a>
+                    <div class="product-num">#EP-SK-303</div>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="Sedf9ed504e9f4088b9c25941b516d919S.webp" alt="Pomegranate Deodorant Cream"></div>
+                <div class="content">
+                    <span class="badge">72H Odor Control</span>
+                    <h3 class="title">Pomegranate Body Deodorant Soothing Cream</h3>
+                    <div class="price-row">Check Price</div>
+                    <a href="https://s.click.aliexpress.com/e/_c4cVldoR" class="cta-main" target="_blank">SHOP SENSITIVE CREAM</a>
+                    <div class="product-num">#EP-SK-304</div>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="Sc076b7f1ecbd43a5ae98e8e7e96649edE.webp"" alt="Charcoal Deodorant"></div>
+                <div class="content">
+                    <span class="badge">Deep Detox</span>
+                    <h3 class="title">Long Lasting Charcoal Sweat Eliminator</h3>
+                    <div class="price-row">Check Price</div>
+                    <a href="https://s.click.aliexpress.com/e/_c2IHGSgb" class="cta-main" target="_blank">SHOP CHARCOAL STICK</a>
+                    <div class="product-num">#EP-SK-305</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
